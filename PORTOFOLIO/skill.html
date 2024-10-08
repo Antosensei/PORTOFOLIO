@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #FFF;
+        }
+
+        .box {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 80%;
+            max-width: 800px;
+            padding: 20px;
+            background-color: #1f1a1a;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            overflow: auto;
+        }
+
+        .boxlegend {
+            font-size: 1.5rem;
+            color: #2d225c;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background-color: #292321;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img
+            src="https://readme-typing-svg.herokuapp.com?color=F76A22&lines=Html+%23%23%23%23%23%23%23%23%23%23+70%25"></img>
+        <img src="https://readme-typing-svg.herokuapp.com?color=EFF727&lines=js+%23%23%23%23%23%23%23%23+30%25"></img>
+        <img
+            src="https://readme-typing-svg.herokuapp.com?color=1F25F7&lines=python+%23%23%23%23%23%23%23%23+60%25"></img>
+        <img
+            src="https://readme-typing-svg.herokuapp.com?color=0EE6F7&lines=bash+%23%23%23%23%23%23%23%23%23+90%25"></img>
+        <img
+            src="https://readme-typing-svg.herokuapp.com?color=8DF724&lines=sql+%23%23%23%23%23%23%23%23%23+90%25"></img>
+    </div>
+    <div class="boxlegend">
+        <h2>HTML, JS, Python, Bash, SQL</h2>
+        <p>This web page displays images of the logo of different programming languages that I am able to produce a
+            result at. Logos are created using the Readme Input SVG API.
+        </p>
+    </div>
+    <button class="btn">BACK</button>
+    <script>
+        document.querySelector('.btn').addEventListener('click', () => {
+            window.location.href = "PORTOFOLIO.html";
+        });
+    </script>
+</body>
+
+</html>
